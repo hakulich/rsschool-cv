@@ -1,0 +1,2 @@
+Hanna Akulich
+Junior Frontend Developer
