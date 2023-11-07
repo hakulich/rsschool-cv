@@ -6,9 +6,9 @@
 
 ## Contacts
 
-Location: Lodz, Poland
-Email: hanna.aleinik@gmail.com
-GitHub: [hakulich](https://github.com/hakulich)
+- Location: Lodz, Poland
+- Email: hanna.aleinik@gmail.com
+- GitHub: [hakulich](https://github.com/hakulich)
 
 ## About Me
 
