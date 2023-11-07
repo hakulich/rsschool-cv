@@ -11,13 +11,13 @@ GitHub: [hakulich](https://github.com/hakulich)
 
 ---
 
-##About Me
+## About Me
 
 > I am self-organized person and a good team worker. I am quick learner. My strengths are attentiveness, punctuality, serious attitude to work and willingness to learn.
 
 ---
 
-##Skills
+## Skills
 
 - Html&Css
 - JavaScripts(Basic)
@@ -26,7 +26,8 @@ GitHub: [hakulich](https://github.com/hakulich)
 
 ---
 
-##Code example:
+## Code example:
+
 **Task:** Multiply 2 values
 
 ```
@@ -40,17 +41,18 @@ alert( result );
 
 ---
 
-##Education
-#University: Brest State university, Apply-Math
+## Education
 
-#Courses:
+### University: Brest State university, Apply-Math
+
+### Courses:
 
 - [RSS School - Stage 0](https://rs.school/js-stage0/)
 - RSS School - Stage 1 (in progress)
 
 ---
 
-##Languages:
+## Languages:
 
 - English - B2 (I can read and speak with native speaker)
 - Russian - Native
