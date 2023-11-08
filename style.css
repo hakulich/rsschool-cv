@@ -7,8 +7,18 @@ html {
 }
 
 body {
+  max-width: 100%;
+  margin: 0 0;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 15px;
+}
+
+main {
   max-width: 1440px;
-  margin: auto 10%;
+  margin: auto auto;
   background-color: black;
   color: aliceblue;
   font-family: "Roboto", sans-serif;
@@ -22,19 +32,35 @@ li {
 }
 
 a {
+  color: aliceblue;
   text-decoration: none;
+}
+
+a::after {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: aliceblue;
+  content: "";
+  transition: width 0.3s ease-out;
+  text-transform: capitalize;
+}
+
+a:hover::after {
+  width: 5%;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 10px;
+  gap: 20px;
 }
 
 .nav-link {
   position: relative;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: #fff;
   text-transform: capitalize;
@@ -45,7 +71,7 @@ a {
   position: absolute;
   width: 0;
   height: 2px;
-  background-color: #2c00a6;
+  background-color: #f7f7f7;
   content: "";
   transition: width 0.3s ease-out;
   text-transform: capitalize;
@@ -56,7 +82,13 @@ a {
 }
 
 .header-wrapper {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  background-color: #1e0369;
+  padding: 2px;
+  padding-right: 60px;
+  top: 0;
+  z-index: 999;
+  text-transform: uppercase;
 }
 
 #main-info {
@@ -107,13 +139,13 @@ a {
   display: flex;
   flex-direction: row;
   gap: 10%;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
   margin-bottom: 40px;
 }
 
 .section-title {
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .email-wrapper,
@@ -127,6 +159,11 @@ a {
 .email-wrapper,
 .github-wrapper {
   margin-bottom: 10px;
+}
+
+#summary {
+  margin-left: 50px;
+  margin-right: 40px;
 }
 
 .summary-content {
@@ -146,11 +183,19 @@ a {
   gap: 100px;
 }
 
+#courses {
+  margin-bottom: 40px;
+}
+
+#languages {
+  margin-bottom: 40px;
+}
+
 .pre {
   padding: 0;
   margin: 0;
   margin-left: -130px;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .jsFunctionName {
@@ -219,6 +264,7 @@ a {
   text-transform: uppercase;
   margin-top: 10%;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .btn-project:hover {
@@ -247,4 +293,91 @@ a {
   text-align: justify;
   text-justify: inter-word;
   color: #2c00a6;
+}
+
+#code-example {
+  margin-top: 80px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  grid-template-columns: 40% 60%;
+}
+
+.skill-title {
+  width: 90px;
+}
+
+.skill-rate-wrapper {
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.achieved {
+  background-color: #2c00a6;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1e0369;
+}
+
+.github {
+  color: #fff;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+.github::after {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #f7f7f7;
+  content: "";
+  transition: width 0.3s ease-out;
+  text-transform: capitalize;
+}
+
+.github:hover::after {
+  width: 5%;
+}
+
+.rss-logo {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/rssLogo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.git-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.year {
+  font-style: bold;
 }
