@@ -102,7 +102,7 @@ a {
   background: #fff;
 }
 
-.block-1-wrapper {
+.block-wrapper {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
@@ -113,7 +113,7 @@ a {
 
 .section-title {
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .email-wrapper,
@@ -132,4 +132,119 @@ a {
 .summary-content {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.education-record {
+  margin-bottom: 10px;
+}
+
+.education-info {
+  font-weight: bold;
+}
+
+.sub-block-wrapper {
+  gap: 100px;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+  margin-left: -130px;
+  font-size: 16px;
+}
+
+.jsFunctionName {
+  color: #a2b824;
+}
+
+.jsReturn {
+  color: #8e24b8;
+}
+
+.jsReturnMain {
+  color: #c7c41e;
+}
+
+.jsVariable {
+  color: #64b7c2;
+}
+.section-item span {
+  color: #66a5ad;
+}
+
+.project-wrapper {
+  height: 400px;
+  width: 800px;
+  margin-bottom: 30px;
+}
+
+.project-img-slider {
+  background: url("./assets/projects/Slider.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px);
+}
+
+.project-img-git {
+  background: url("./assets/projects/Git.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6px);
+}
+
+.project-content {
+  position: relative;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+}
+
+.btn-project {
+  background-color: #2c00a6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 10%;
+  margin-bottom: 5px;
+}
+
+.btn-project:hover {
+  background: rgb(101, 57, 221);
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.project-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #2c00a6;
+}
+
+.project-technologies,
+.project-description {
+  margin-bottom: 10px;
+  color: #2c00a6;
+}
+
+.project-description {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #2c00a6;
 }
